@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 80px;
+    background: #212121;
+    color: white;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    align-items: center;
+
+    img {
+        max-height: 120px;
+    }
+}
+
+body,
+html {
+    min-height: 100vh;
+    margin: 0;
+}
+
+div {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "Lobster", serif;
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Carrois Gothic", serif;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 auto;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 auto;
+}
+
+h5 {
+    font-family: "Carrois Gothic", serif;
+    font-size: 12px;
+    padding: 10px auto;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 0 auto;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    color: blue;
+    text-decoration: underline;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transcript {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #decade;
+    color: black;
+    padding: 0px 5px;
+}
+
+.topper {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.topper ul li a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.hiddentext {
+    color: white;
+}
+
+td img {
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigimage img {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 625px) {
+    header {
+        img {
+            max-height: 80px;
+            max-width: 140px;
+        }
+    }
+}
